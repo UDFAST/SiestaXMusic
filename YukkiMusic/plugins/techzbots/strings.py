@@ -1,6 +1,6 @@
-from config import ASSISTANT_PREFIX
-from Yukki import BOT_NAME, MUSIC_BOT_NAME
+from YukkiMusic import app
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from config import MUSIC_BOT_NAME as BOT_NAME
 
 START_TEXT = f"""╔━━━━━━━━━𓆩•♡•𓆪━━━━━━━━━╗ 
 ✨ **مرحبا عزيزي MENTION !**\n
