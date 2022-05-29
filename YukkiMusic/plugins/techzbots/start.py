@@ -47,10 +47,10 @@ async def play_menu(_, query):
     await query.answer()    
     await query.message.edit(text=PLAY_TEXT,reply_markup=BACK_BUTTON,parse_mode="markdown")
 
-@app.on_callback_query(filters.regex("bot_cmd"))
+@app.on_callback_query(filters.regex("sudo_cmd"))
 async def bot_menu(_, query):
     await query.answer()    
-    await query.message.edit(text=BOT_TEXT,reply_markup=BACK_BUTTON,parse_mode="markdown")
+    await query.message.edit(text=SUDO_TEXT,reply_markup=BACK_BUTTON,parse_mode="markdown")
 
 @app.on_callback_query(filters.regex("close_btn"))
 async def closer_menu(_, query):
