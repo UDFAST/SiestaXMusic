@@ -40,7 +40,7 @@ async def admin_menu(_, query):
 @app.on_callback_query(filters.regex("extra_cmd"))
 async def auth_cmds(_, query):
     await query.answer()    
-    await query.message.edit(text=EXTRA_TEXT,reply_markup=AUTH_BACK_BUTTON,parse_mode="markdown")
+    await query.message.edit(text=EXTRA_TEXT,reply_markup=BACK_BUTTON,parse_mode="markdown")
 
 @app.on_callback_query(filters.regex("play_cmd"))
 async def play_menu(_, query):
