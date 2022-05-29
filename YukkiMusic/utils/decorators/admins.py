@@ -31,7 +31,7 @@ def AdminRightsCheck(mystic):
                 )
         if await is_commanddelete_on(message.chat.id):
             try:
-
+                await message.delete()
             except:
                 pass
         try:
@@ -88,7 +88,7 @@ def AdminActual(mystic):
                 )
         if await is_commanddelete_on(message.chat.id):
             try:
-
+                await message.delete()
             except:
                 pass
         try:
