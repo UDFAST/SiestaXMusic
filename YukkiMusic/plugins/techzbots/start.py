@@ -82,4 +82,4 @@ async def basic_cmd(_, query):
 @app.on_callback_query(filters.regex("command_menu"))
 async def command_menu(_, query):
     await query.answer()   
-    await query.message.edit(text="**Choose Basic Command to get Basic Bot Commands\nAnd Advanved Command to get Advanved Bot Commands.**",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")    
+    await query.message.edit(text="» **قم بالضغط على الزر الذي تريده لمعرفه الاوامر لكل فئه منهم !**\n\n⚡ قناة البوت @FA9SH",reply_markup=COMMAND_MENU_BUTTON,parse_mode="markdown")    
