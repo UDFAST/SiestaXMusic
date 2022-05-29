@@ -39,7 +39,7 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
 START_BUTTON_PRIVATE = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="➕ اضف البوت الى مجموعتك ➕", url=f"https://t.me/{BOT_NAME}?startgroup=true"
+                text="➕ اضف البوت الى مجموعتك ➕", url=f"https://t.me/USDDBOT?startgroup=true"
             ),            
         ],
         [   
