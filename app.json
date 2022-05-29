@@ -1,7 +1,7 @@
 {
-    "name": "Yukki Music Bot",
+    "name": "Shadow MUSIC",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+    "logo": "https://telegra.ph/file/9095caaf253f61573f093.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,12 +14,12 @@
     "stack": "container",
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "حط هنا الايبي ايدي",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "حط هنا الايبي هاش",
         "value": "",
         "required": true
       },      
@@ -29,23 +29,23 @@
         "required": false
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "حط هنا توكن بوتك",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
-        "value": "",
+        "value": "mongodb://mongo:ulKN4P4rlO22zNnn1KfN@containers-us-west-33.railway.app:7316",
         "required": false
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "",
+        "value": "SHaDoW",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "1970797144 5195598604",
         "required": true
       },
       "STRING_SESSION": {
@@ -65,12 +65,12 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "",
+        "value": "-1001569455288",
         "required": true
       },      
       "START_IMG_URL": {
         "description": "Telegraph Image URL For Start Command",
-        "value": "https://telegra.ph/file/e17f42bc195635b668d6d.jpg",
+        "value": "https://telegra.ph/file/d0e0b739230e335c4647d.jpg",
         "required": true
       }
     },
