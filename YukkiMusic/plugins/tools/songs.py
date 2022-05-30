@@ -59,7 +59,6 @@ async def song_commad_private(client, message: Message, _):
                         )
                     )
             buttons = song_markup(_, vidid)
-            await mystic.delete()
             return await message.reply_photo(
                 thumbnail,
                 caption=_["song_4"].format(title),
